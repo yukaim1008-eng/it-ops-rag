@@ -1,0 +1,25 @@
+# secrets & env
+.env
+.env.*
+.streamlit/secrets.toml
+
+# virtual env
+.venv/
+venv/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# runtime / user data (not for version control)
+streamlit_log.txt
+*.log
+data/users.json
+data/chat_history/
+data/avatars/
+data/database/

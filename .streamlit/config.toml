@@ -1,0 +1,11 @@
+[theme]
+# DeepSeek 风格配色
+primaryColor = "#07c160"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f9fafb"
+textColor = "#111827"
+font = "sans serif"
+
+[server]
+maxUploadSize = 50
+enableXsrfProtection = false
