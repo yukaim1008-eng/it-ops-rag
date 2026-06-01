@@ -3,7 +3,7 @@
 ## 一句话定位
 能精准回答 IT 运维问题、标注来源段落、给出可溯源解决步骤的企业级 RAG 助手。
 
-## 核心技术（6 个亮点，面试对着讲）
+## 核心技术（6 个亮点）
 1. **混合检索**：稠密(BGE-large) + 稀疏(BM25) → RRF 融合
 2. **元数据过滤**：Qdrant payload，按系统/模块/文档类型预筛选
 3. **查询重写**：LLM 把"电脑很卡"→ 拆成"CPU过高""内存不足""磁盘IO高"三个精确查
@@ -13,12 +13,6 @@
 
 ## 技术栈
 Python 3.13 · LangChain · Qdrant Cloud · BGE-large(SentenceTransformer) · bge-reranker-base · BM25(rank-bm25) · DeepSeek API · Streamlit
-
-## 我的背景
-- 大三信管专业，2027届
-- 已完成一个基础 RAG 项目（银行问答，3天）
-- 会用 Claude Code 辅助开发，会排查兼容性问题
-- 目标：Ai agent实习
 
 ## 当前状态
 ✅ 完整可跑。四层架构（data_loader 离线管道 / retrieval 检索 / orchestrator 编排 / backend 独立进程 / main Streamlit 前端）已落地。

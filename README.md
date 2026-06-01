@@ -41,7 +41,7 @@ Python 3.13 · LangChain · **Qdrant Cloud** · BGE-large-zh（SentenceTransform
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
-pip install -r requirements.txt   # 或按 WEEKLY_PLAN.md 安装
+pip install -r requirements.txt
 
 # 配置 .env：DEEPSEEK_API_KEY / QDRANT_URL / QDRANT_API_KEY
 python data_loader.py             # 一次性：文档 → 向量库
@@ -53,7 +53,7 @@ streamlit run main.py             # 启动问答界面
 `data/` 下 8 篇 IT 运维排障演示文档（服务器 / 网络 / 数据库 / 应用 / 安全 / 监控），
 每篇在 `data/metadata.json` 中登记元数据（系统名、文档类型、严重级、标签）。
 
-## 🧪 踩过的坑（面试可讲）
+## 🧪 踩过的坑与解决
 
 1. HuggingFace 被墙 → 走 `hf-mirror.com` 镜像站
 2. Windows 下 PyTorch + Streamlit 线程冲突 → 限制 torch 线程数 + 模型在独立进程加载
