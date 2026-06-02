@@ -22,7 +22,8 @@ streamlit_log.txt
 data/users.json
 data/chat_history/
 data/avatars/
-data/database/
+data/database/*
+!data/database/*.md
 
 # 个人工作日志 / AI 草稿 —— 本地保留，不进公开仓库
 claude0.md
