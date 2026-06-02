@@ -46,5 +46,77 @@
     "doc_type": "howto",
     "severity": "L3",
     "tags": ["Prometheus", "Grafana", "监控", "告警", "node_exporter"]
+  },
+  "server_disk_full.md": {
+    "system_name": "服务器",
+    "doc_type": "troubleshooting",
+    "severity": "L1",
+    "tags": ["磁盘", "inode", "No space left", "logrotate", "空间满"]
+  },
+  "server_high_load.md": {
+    "system_name": "服务器",
+    "doc_type": "troubleshooting",
+    "severity": "L2",
+    "tags": ["负载", "load average", "iowait", "IO", "卡顿"]
+  },
+  "network_packet_loss.md": {
+    "system_name": "网络",
+    "doc_type": "troubleshooting",
+    "severity": "L2",
+    "tags": ["丢包", "延迟", "mtr", "重传", "网络慢"]
+  },
+  "network_connection_refused.md": {
+    "system_name": "网络",
+    "doc_type": "troubleshooting",
+    "severity": "L1",
+    "tags": ["端口不通", "连接拒绝", "连接超时", "防火墙", "安全组"]
+  },
+  "database_deadlock.md": {
+    "system_name": "数据库",
+    "doc_type": "troubleshooting",
+    "severity": "L2",
+    "tags": ["死锁", "deadlock", "InnoDB", "锁等待", "事务"]
+  },
+  "database_connection_exhausted.md": {
+    "system_name": "数据库",
+    "doc_type": "troubleshooting",
+    "severity": "L1",
+    "tags": ["连接池", "too many connections", "连接泄漏", "连不上"]
+  },
+  "app_jvm_oom.md": {
+    "system_name": "应用",
+    "doc_type": "troubleshooting",
+    "severity": "L1",
+    "tags": ["OOM", "JVM", "Full GC", "堆转储", "内存泄漏"]
+  },
+  "app_thread_pool_exhausted.md": {
+    "system_name": "应用",
+    "doc_type": "troubleshooting",
+    "severity": "L2",
+    "tags": ["线程池", "jstack", "请求堆积", "超时", "熔断"]
+  },
+  "cache_redis_memory.md": {
+    "system_name": "缓存",
+    "doc_type": "troubleshooting",
+    "severity": "L2",
+    "tags": ["Redis", "内存", "maxmemory", "bigkey", "淘汰"]
+  },
+  "cache_avalanche.md": {
+    "system_name": "缓存",
+    "doc_type": "troubleshooting",
+    "severity": "L1",
+    "tags": ["缓存雪崩", "缓存击穿", "缓存穿透", "布隆过滤器", "降级"]
+  },
+  "mq_kafka_consumer_lag.md": {
+    "system_name": "消息队列",
+    "doc_type": "troubleshooting",
+    "severity": "L2",
+    "tags": ["Kafka", "消费积压", "lag", "分区", "rebalance"]
+  },
+  "security_brute_force.md": {
+    "system_name": "安全",
+    "doc_type": "troubleshooting",
+    "severity": "L2",
+    "tags": ["暴力破解", "异常登录", "fail2ban", "SSH", "MFA"]
   }
 }
